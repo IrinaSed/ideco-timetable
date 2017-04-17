@@ -1,0 +1,55 @@
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    max-width: 960px;
+    padding: 10px 0;
+}
+
+@media handheld {
+    .bar {
+        justify-content: space-around;
+    }
+}
+
+.change {
+    display: inline-block;
+}
+
+.change > button {
+    width: 150px;
+    border-radius: 15px;
+    line-height: 30px;
+    outline: none;
+    padding: 0 35px 0 15px;
+    background-size: 16px 16px;
+    margin-right: 10px;
+}
+
+.change > button:last-child {
+    margin-right: 0;
+}
+
+.edit {
+    background: url('../../public/image/edit.png') no-repeat 120px #07b0e8;
+}
+
+.add {
+    background: url('../../public/image/add.png') no-repeat 120px #07b0e8;
+}
+
+
+.count {
+    height: 25px;
+    margin: 2px;
+    border-bottom: 1px solid black;
+}
+
+.count > p {
+    font-family: 'caps-small';
+    margin: 0;
+    line-height: 30px;
+}

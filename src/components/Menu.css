@@ -1,0 +1,96 @@
+.logo {
+    display: inline-block;
+}
+
+img {
+    height: 100%;
+}
+
+.not-mark {
+    list-style-type: none
+}
+
+.menu > a {
+    margin-right: 10px;
+}
+
+.nav-menu {
+    display: inline-flex;
+    padding: 0;
+    margin-left: 0;
+}
+.nav-menu li >a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    padding: 2px;
+    border-bottom: 1px solid transparent;
+}
+
+
+.menu-item:hover {
+    /*border-bottom: 1px solid yellow;*/
+    color: #07b0e8;
+}
+
+
+.menu {
+    width: 100%;
+    padding: 0 10px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-items: center;
+    max-width: 960px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 30px;
+    width: auto;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.search {
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    justify-content: center;
+    padding: 0 10px;
+
+}
+.search input:focus {
+    outline: none;
+}
+
+.search input {
+    border: none;
+    color: #f5f5f5;
+}
+.search {
+    height:50px;
+}
+
+.rounded {
+    border-radius:15px;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+}
+form{
+    margin:0 auto;
+}
+
+.search-bar > input {
+    padding:6px 15px 6px 30px;
+    margin:3px;
+    background: url('../../public/image/loupe.png') 8px 6px no-repeat #333;
+}
+
+.crossed {
+    border-bottom: 1px solid yellow;
+}
